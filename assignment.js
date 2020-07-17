@@ -13,6 +13,7 @@ function feetToMile(feet){
 }
 
 var output = feetToMile(5646);
+output = output.toFixed(2);
 console.log(output);
 
 
@@ -69,5 +70,5 @@ function tinyFriend(arr) {
     }
     return shortest;
 }
-var output = tinyFriend(['two', 'three', 'four', 9]);
+var output = tinyFriend(['kamal', 'jui', 'ka', 'jamal', 'jay']);
 console.log(output);
